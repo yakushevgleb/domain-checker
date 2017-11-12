@@ -3,7 +3,7 @@ const app = express();
 const request = require('request-promise');
 
 app.get('/', function (req, res) {
-  res.send("Hello! Go to /domains and pass query string name to check domain avalibility");
+  res.send("Hello! Go to /domains and pass query string name to check domain availability");
 });
 
 app.get('/domains', function (req, res) {
